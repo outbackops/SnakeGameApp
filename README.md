@@ -14,14 +14,14 @@ Minimal iPhone Snake game built with SwiftUI.
 List valid destinations first:
 
 ```bash
-cd /Users/rahul/Documents/Repo/AppTest
+cd /Users/<user>/Documents/Repo/AppTest
 xcodebuild -showdestinations -project SnakeGame.xcodeproj -scheme SnakeGame
 ```
 
 Then build with one of the listed simulator names, for example:
 
 ```bash
-cd /Users/rahul/Documents/Repo/AppTest
+cd /Users/<user>/Documents/Repo/AppTest
 xcodebuild -project SnakeGame.xcodeproj -scheme SnakeGame -destination 'platform=iOS Simulator,name=iPhone 17' build
 ```
 
